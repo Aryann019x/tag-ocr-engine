@@ -1,0 +1,134 @@
+{
+  "field": "BCCD Name",
+  "source": "demo",
+  "generated_utc": "2026-01-01T00:00:00Z",
+  "entries": [
+    {
+      "value": "Demo Electronics",
+      "count": 30,
+      "variants": [
+        {
+          "text": "Demo Electronics",
+          "count": 15
+        },
+        {
+          "text": "DEMO ELECTRONICS",
+          "count": 10
+        },
+        {
+          "text": "Demo Electronic",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "value": "Sample Traders",
+      "count": 27,
+      "variants": [
+        {
+          "text": "Sample Traders",
+          "count": 13
+        },
+        {
+          "text": "SAMPLE TRADERS",
+          "count": 9
+        },
+        {
+          "text": "Sample Traders",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "value": "Example Enterprises",
+      "count": 26,
+      "variants": [
+        {
+          "text": "Example Enterprises",
+          "count": 13
+        },
+        {
+          "text": "EXAMPLE ENTERPRISES",
+          "count": 8
+        },
+        {
+          "text": "Example Enterprises",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "value": "Placeholder Sales",
+      "count": 23,
+      "variants": [
+        {
+          "text": "Placeholder Sales",
+          "count": 11
+        },
+        {
+          "text": "PLACEHOLDER SALES",
+          "count": 7
+        },
+        {
+          "text": "Placeholder Sales",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "value": "Mock Electricals",
+      "count": 22,
+      "variants": [
+        {
+          "text": "Mock Electricals",
+          "count": 11
+        },
+        {
+          "text": "MOCK ELECTRICALS",
+          "count": 7
+        },
+        {
+          "text": "Mock Electricals",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "value": "Testline Services",
+      "count": 19,
+      "variants": [
+        {
+          "text": "Testline Services",
+          "count": 9
+        },
+        {
+          "text": "TESTLINE SERVICES",
+          "count": 6
+        },
+        {
+          "text": "Testline Services",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "value": "Faux Traders",
+      "count": 18,
+      "variants": [
+        {
+          "text": "Faux Traders",
+          "count": 9
+        },
+        {
+          "text": "FAUX TRADERS",
+          "count": 6
+        },
+        {
+          "text": "Faux Traders",
+          "count": 4
+        }
+      ]
+    }
+  ],
+  "unique_raw": 7
+}

@@ -1,0 +1,182 @@
+{
+  "stats": {
+    "rows": 0,
+    "branches": 4,
+    "bccds": 7,
+    "technicians": 4
+  },
+  "tech_entries": [
+    {
+      "tk": "ALEXDEMO",
+      "value": "Alex Demo",
+      "count": 12
+    },
+    {
+      "tk": "PRIYASAMPLE",
+      "value": "Priya Sample",
+      "count": 9
+    },
+    {
+      "tk": "RAHULTEST",
+      "value": "Rahul Test",
+      "count": 7
+    },
+    {
+      "tk": "NEHAMOCK",
+      "value": "Neha Mock",
+      "count": 5
+    }
+  ],
+  "bccd_tech_map": {
+    "DEMOELECTRONICS": [
+      [
+        "Alex Demo",
+        4
+      ],
+      [
+        "Priya Sample",
+        3
+      ]
+    ],
+    "SAMPLETRADERS": [
+      [
+        "Rahul Test",
+        4
+      ]
+    ],
+    "EXAMPLEENTERPRISES": [
+      [
+        "Neha Mock",
+        4
+      ],
+      [
+        "Alex Demo",
+        3
+      ]
+    ],
+    "PLACEHOLDERSALES": [
+      [
+        "Rahul Test",
+        4
+      ]
+    ],
+    "MOCKELECTRICALS": [
+      [
+        "Priya Sample",
+        4
+      ]
+    ],
+    "TESTLINESERVICES": [
+      [
+        "Neha Mock",
+        4
+      ]
+    ],
+    "FAUXTRADERS": [
+      [
+        "Alex Demo",
+        4
+      ]
+    ]
+  },
+  "branch_tech_map": {
+    "TESTNAGAR": [
+      [
+        "Alex Demo",
+        3
+      ],
+      [
+        "Priya Sample",
+        2
+      ]
+    ],
+    "DEMOPUR": [
+      [
+        "Neha Mock",
+        3
+      ],
+      [
+        "Alex Demo",
+        2
+      ]
+    ],
+    "SAMPLEPUR": [
+      [
+        "Priya Sample",
+        3
+      ]
+    ],
+    "MOCKABAD": [
+      [
+        "Alex Demo",
+        3
+      ]
+    ]
+  },
+  "bccd_branch_map": {
+    "DEMOELECTRONICS": [
+      [
+        "Testnagar",
+        4
+      ]
+    ],
+    "SAMPLETRADERS": [
+      [
+        "Testnagar",
+        4
+      ]
+    ],
+    "EXAMPLEENTERPRISES": [
+      [
+        "Demopur",
+        4
+      ]
+    ],
+    "PLACEHOLDERSALES": [
+      [
+        "Demopur",
+        4
+      ]
+    ],
+    "MOCKELECTRICALS": [
+      [
+        "Samplepur",
+        4
+      ]
+    ],
+    "TESTLINESERVICES": [
+      [
+        "Samplepur",
+        4
+      ]
+    ],
+    "FAUXTRADERS": [
+      [
+        "Mockabad",
+        4
+      ]
+    ]
+  },
+  "comp_prefix_map": {
+    "TST": "Testnagar",
+    "DMO": "Demopur",
+    "SMP": "Samplepur",
+    "MCK": "Mockabad"
+  },
+  "serial_index": {
+    "N304123456789": {
+      "br": "Testnagar",
+      "bc": "Demo Electronics",
+      "pc": "100001",
+      "vt": "Alex Demo"
+    }
+  },
+  "complaint_index": {
+    "TST120576057963441": {
+      "br": "Testnagar",
+      "bc": "Demo Electronics",
+      "pc": "100001",
+      "vt": "Alex Demo"
+    }
+  }
+}

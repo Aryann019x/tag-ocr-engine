@@ -1,0 +1,40 @@
+{
+  "source": "demo",
+  "pairs": [
+    [
+      "Testnagar",
+      "Demo Electronics",
+      30
+    ],
+    [
+      "Testnagar",
+      "Sample Traders",
+      27
+    ],
+    [
+      "Demopur",
+      "Example Enterprises",
+      26
+    ],
+    [
+      "Demopur",
+      "Placeholder Sales",
+      23
+    ],
+    [
+      "Samplepur",
+      "Mock Electricals",
+      22
+    ],
+    [
+      "Samplepur",
+      "Testline Services",
+      19
+    ],
+    [
+      "Mockabad",
+      "Faux Traders",
+      18
+    ]
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "field": "Branch",
+  "source": "demo",
+  "generated_utc": "2026-01-01T00:00:00Z",
+  "entries": [
+    {
+      "value": "Testnagar",
+      "count": 60,
+      "variants": [
+        {
+          "text": "Testnagar",
+          "count": 30
+        },
+        {
+          "text": "TESTNAGAR",
+          "count": 20
+        },
+        {
+          "text": "Testna ga r",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "value": "Demopur",
+      "count": 52,
+      "variants": [
+        {
+          "text": "Demopur",
+          "count": 26
+        },
+        {
+          "text": "DEMOPUR",
+          "count": 17
+        },
+        {
+          "text": "Demopur",
+          "count": 13
+        }
+      ]
+    },
+    {
+      "value": "Samplepur",
+      "count": 44,
+      "variants": [
+        {
+          "text": "Samplepur",
+          "count": 22
+        },
+        {
+          "text": "SAMPLEPUR",
+          "count": 14
+        },
+        {
+          "text": "Sa mplepur",
+          "count": 11
+        }
+      ]
+    },
+    {
+      "value": "Mockabad",
+      "count": 36,
+      "variants": [
+        {
+          "text": "Mockabad",
+          "count": 18
+        },
+        {
+          "text": "MOCKABAD",
+          "count": 12
+        },
+        {
+          "text": "Mocka ba d",
+          "count": 9
+        }
+      ]
+    }
+  ],
+  "unique_raw": 4
+}
