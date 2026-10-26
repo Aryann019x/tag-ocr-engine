@@ -103,11 +103,11 @@ Measured on a laptop:
 |---|---|
 | GPU, model warm | 1.5 to 3.0 s |
 | GPU, cold model | about 7 s to load, then the first scan |
-| CPU only | about 85 s |
+| CPU only, GPU disabled | about 15 to 30 s |
 
-CPU time is mostly vision prefill: roughly 65 s encoding the image and 11 s
-decoding the fields. On a slower 4-core laptop, expect 2 to 4 minutes per tag.
-CPU mode is for batch runs, not interactive scanning.
+CPU time is mostly vision prefill. On the bundled 1309×1690 sample, prefill
+takes about 22 s and decoding about 8 s. Smaller crops are faster. CPU mode is
+for batch runs, not interactive scanning.
 
 ## Batch mode
 
