@@ -898,6 +898,35 @@ async function loadSample(filename, btnEl) {
   }
 }
 
+function formatOcrText(raw) {
+  const NL = String.fromCharCode(10);
+  const text = (raw || '').trim();
+  if (!text) return '(no text returned)';
+  if (!/[<>&]/.test(text)) return text;
+
+  const normalized = text
+    .replace(/<br[^>]*>/gi, NL)
+    .replace(/<\/(p|div|li)>/gi, NL);
+  const doc = new DOMParser().parseFromString(normalized, 'text/html');
+  const rows = Array.from(doc.querySelectorAll('tr'));
+
+  if (rows.length) {
+    const lines = rows.map(row => {
+      const cells = Array.from(row.querySelectorAll('th,td'))
+        .map(cell => cell.textContent.replace(/\s+/g, ' ').trim())
+        .filter(Boolean);
+      return cells.join(' : ');
+    }).filter(Boolean);
+    if (lines.length) return lines.join(NL);
+  }
+
+  return (doc.body.textContent || '')
+    .split(NL)
+    .map(line => line.replace(/\s+/g, ' ').trim())
+    .filter(Boolean)
+    .join(NL) || text;
+}
+
 let timerInterval = null;
 async function executeScan() {
   if (!selectedBlob || scanInProgress) return;
@@ -935,7 +964,7 @@ async function executeScan() {
     
     document.getElementById('raw-ocr-view').textContent = 
       `Model: ${data.model || mode} | Angle: ${data.angle}° | Passes: ${data.passes || 1} | Scores: ${JSON.stringify(data.scores)} | `
-      + `Vision: ${t.prefill_s || 0}s | Decode: ${t.decode_s || 0}s\\n\\n${data.raw_ocr}`;
+      + `Vision: ${t.prefill_s || 0}s | Decode: ${t.decode_s || 0}s\\n\\n${formatOcrText(data.raw_ocr)}`;
 
     FIELDS.forEach(f => {
       const fieldData = (data.fields && data.fields[f.key]) || { value: data.result[f.key] || '', status: 'READ' };
