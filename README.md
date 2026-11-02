@@ -87,6 +87,20 @@ The model only transcribes. Field assignment is plain Python, which is what
 keeps the output stable between runs. More detail is in
 [`docs/method.md`](docs/method.md).
 
+## Benchmark
+
+The repo includes a small field-level benchmark. It runs the same images through
+one or more Ollama models and scores the nine fields against a labels file. The
+report covers critical-field accuracy, false-READ count, and latency.
+
+```bash
+python -m bench --images samples --labels samples/labels.csv \
+  --models glm-ocr:q8_0
+```
+
+Reports go to `reports/`. The three sample labels are synthetic; use reviewed
+tags for real numbers. See [`docs/bench.md`](docs/bench.md).
+
 ## Performance
 
 Measured on a laptop:
