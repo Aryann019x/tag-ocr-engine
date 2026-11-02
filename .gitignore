@@ -5,7 +5,9 @@ venv/
 env/
 uploads/
 ocr_config.json
+reports/
 *.csv
+!samples/labels.csv
 *.jsonl
 *.log
 .DS_Store
