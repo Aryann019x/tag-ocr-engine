@@ -1,0 +1,4 @@
+file,Branch,BCCD Name,Product Description,Product Sr. No.,Date of Purchase,Complaint No.,Spare Part Code,Nature Of Defect,Technician Name
+sample_01_upright.jpg,Testnagar,Demo Electronics,MAIN PCB ASSY DEMO 100,N304123456789,12/03/2024,TST12057605796344-1,100001,Dead,Alex Demo
+sample_02_sideways.jpg,Testnagar,Demo Electronics,MAIN PCB ASSY DEMO 100,N304123456789,12/03/2024,TST12057605796344-1,100001,Dead,Alex Demo
+sample_03_faded.jpg,Testnagar,Demo Electronics,MAIN PCB ASSY DEMO 100,N304123456789,12/03/2024,TST12057605796344-1,100001,Dead,Alex Demo
