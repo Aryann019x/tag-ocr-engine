@@ -6,10 +6,17 @@ env/
 uploads/
 ocr_config.json
 reports/
+private/
 *.csv
 !samples/labels.csv
 *.jsonl
 *.log
+*.zip
+*.xlsx
+*.pdf
+*.db
+*.sqlite
+*.sqlite3
 .DS_Store
 Thumbs.db
 .idea/

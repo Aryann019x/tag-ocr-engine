@@ -144,8 +144,10 @@ The resolver reads four JSON files from `data/`:
 | `master_knowledge.json` | technician rosters, dealer-to-branch map, complaint prefixes, exact indexes |
 
 The included files show the schema. Replace them with an export from your own
-records; no code changes are needed. Optional override tables
-(`BCCD_OCR_ALIASES`, `HINDI_BCCD_SCRIPT_ALIASES`, `COMPLAINT_PREFIX_TO_BRANCH`,
+records; no code changes are needed. The copies in git are synthetic. Keep a
+real export out of version control; `uploads/`, `reports/`, and `private/` are
+ignored. Optional override tables (`BCCD_OCR_ALIASES`,
+`HINDI_BCCD_SCRIPT_ALIASES`, `COMPLAINT_PREFIX_TO_BRANCH`,
 `PART_CODE_MASTER`) live near the top of `lookup.py`.
 
 ## Configuration
